@@ -200,7 +200,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2024-04-18 21:25:44 / Modified: 22:44:23" itemprop="dateCreated datePublished" datetime="2024-04-18T21:25:44+08:00">2024-04-18</time>
+      <time title="Created: 2024-04-18 21:25:44 / Modified: 22:49:42" itemprop="dateCreated datePublished" datetime="2024-04-18T21:25:44+08:00">2024-04-18</time>
     </span>
 
   
@@ -214,19 +214,14 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="总结报告："><a href="#总结报告：" class="headerlink" title="总结报告："></a>总结报告：</h2><h3 id="博客主题及其选取原因"><a href="#博客主题及其选取原因" class="headerlink" title="博客主题及其选取原因"></a>博客主题及其选取原因</h3><p>博客主题关于篮球，主要进行一些球员介绍和比赛时刻记录，希望能给大家带来一些有趣的内容和深入的篮球事件分享。现在已经更新了乔丹、麦迪、卡特、易建联的人物介绍篇。</p>
-<p>选取原因是平时比较喜欢篮球主题，有时候经常会看到别人创作的视频和文章，个人比较喜欢观看这些内容。并且篮球也是一个比较有群众基础的运动，正好趁课程作业搭建博客的机会，希望搭建一个<strong>Basketball Channel</strong>，给更多喜欢篮球的伙伴分享篮球事件。</p>
-<h3 id="博客页面布局及其设计思路"><a href="#博客页面布局及其设计思路" class="headerlink" title="博客页面布局及其设计思路"></a>博客页面布局及其设计思路</h3><p>本博客主题是篮球人物介绍和比赛记录，针对人物介绍，本人的想法是充分利用<strong>categories</strong>布局。因为篮球比赛中有司职不同位置有不同的职责，比如前锋、后卫等等，所以前锋这个category可以集中介绍司职前锋位置的各个球员，后卫category主要介绍司职后卫位置的各个球员，比如正在更新的四大分卫的人物介绍篇。这样的话会非常有条理，假如这个博客更新了很久有很多的内容，后续人们想了解某个位置的球员就会更加有针对性。</p>
-<p>同时考虑到球迷们的行为习惯更喜欢阅读时捎带一些图片，干巴巴的文字往往难以完全激发出体育运动的激情，所以本人在设计时针对每个人物都在互联上搜集了相应的比赛或者生活图片，以便球迷更好的了解到博客中的篮球人物。</p>
-<p>有关博客的整体布局，除去上述提到过的<strong>categories</strong>，本人还设计了Home(主页)、About(关于我)、Tags(人物标签)、Archives(文章列表)，总共设计了5个页面来搭建博客。</p>
-<p><strong>Home</strong>可以直接看到个人博客主页，显示了本人记录的博客，为避免文字冗余，本人加入了<strong>read more</strong>让页面看起来更简洁。<strong>about</strong>页面主要介绍了本人的个人基本信息和创建博客的原因以及邮箱和wechat的联系方式。<strong>Tags</strong>页面将会显示本人在设计博客时加入的一些标签统计，比如针对易建联，我将他的博客介绍标签设计为<strong>中国球星</strong>，而乔丹的博客介绍则为<strong>篮球名人堂</strong>等标签，并且只要是人物介绍的博客都会有<strong>人物介绍</strong>。<strong>categories</strong>页面会显示根据球员司职位置不同进行的博客分类，假如你想了解大前锋位置有哪些球员的博客介绍，你可以通过进入<strong>categories</strong>页面，点击”大前锋篇”的分类，从而了解到有哪些司职大前锋位置的球员博客介绍（暂时只有易建联）。最后<strong>Archives</strong>页面就是文章列表页面，按时间顺序列出了博客列表，很方便的可以查看每篇博客。针对<strong>search</strong>布局，本人考虑到现有文章较少，为求页面简洁暂时没有加上去，后续文章内容更新丰富后会加上去。</p>
-<h3 id="博客功能实现及其技术选择"><a href="#博客功能实现及其技术选择" class="headerlink" title="博客功能实现及其技术选择"></a>博客功能实现及其技术选择</h3><p>在本博客项目中，本人根据功能需求和目标用户群体的具体特点，选择了Hexo作为静态站点生成器。Hexo以其简洁性和高扩展性著称，非常适合用于快速部署博客。<br>主要是基于Hexo+github pages搭建的博客，这两个部分共同支持了一个功能丰富、易于管理且用户友好的博客系统，有效地满足了现代网络环境下的多样化需求。<br><strong>首先</strong>对于hexo，博客中很多页面就是通过hexo来实现的，比如tags、categories等等，Hexo 使用 Node.js 的性能优势，可以迅速地处理文件，生成静态页面。对于大量的文章也能在很短的时间内完成生成，这使得它非常适合博客这种小型网站，下载完node.js基本就可以开始构建博客。<strong>其次</strong>，Hexo 拥有一个活跃的社区，提供了大量的主题和插件。这使用户可以轻松自定义博客的外观和功能，无需从头开始开发，本人选择了next主题，相对而言简洁大方，相较于原始的主题更符合本人审美，并且页面设计也更加整洁。<strong>最后</strong>，Hexo 原生支持 Markdown 格式的文档，让你可以用简洁的标记语言编写内容，然后自动转换成 HTML。这简化了写作和编辑过程，同时保持内容的可读性和可维护性，直接在vscode或者终端上编辑markdown文件，通过hexo就可以直接上传到博客，当然前提是已经部署在githubpages上了。<br>谈到GitHub Pages，它是一个免费的静态网站托管服务，允许用户直接从 GitHub 上的仓库中托管网站内容，通过hexo结合github pages很方便就能够搭建好一个博客网站。</p>
-<h3 id="博客制作过程中遇到的问题及其解决方法"><a href="#博客制作过程中遇到的问题及其解决方法" class="headerlink" title="博客制作过程中遇到的问题及其解决方法"></a>博客制作过程中遇到的问题及其解决方法</h3><p>1、部署博客到GitHub Pages上时local打开页面和部署页面不一致</p>
-<p>后续研究学习hexo的使用教程后，将密钥添加到GitHub后解决了问题。</p>
-<p>2、部署完博客后图片无法显示</p>
-<p>相对路径不能写成 <code>/images/...</code> 应该写成 <code>./images/...</code>,这个bug困扰了我不少时间。</p>
-<p>3、对hexo和GitHub Pages相对生疏</p>
-<p>刚了解到这个作业的时候比较不知所措，因为对于介绍的工具相对不熟悉，对于作业的进展造成了困难，后续通过学习资源自主学习了hexo和GitHub Pages，并且学习到了许多额外的知识，比如什么是SSG框架、什么是markdown文件（其实这个以前接触过，但是没有细致了解过），然后就是博客如何设计等等，这次作业通过实践操作收获的确不少。</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/04/18/final-report/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
